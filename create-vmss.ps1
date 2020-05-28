@@ -3,10 +3,10 @@
 
 <#
 .SYNOPSIS
-Creates a Windows virtual machine scale set, set up for the STL's CI.
+Creates a Windows virtual machine scale set
 
 .DESCRIPTION
-create-vmss.ps1 creates an Azure Windows VM scale set, set up for the STL's CI
+create-vmss.ps1 creates an Azure Windows VM scale set, set up for CI
 system. See https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview
 for more information.
 
