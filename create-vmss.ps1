@@ -17,7 +17,7 @@ or are running from Azure Cloud Shell.
 
 $Location = 'westus2'
 $Prefix = 'Demo-' + (Get-Date -Format 'yyyy-MM-dd')
-$VMSize = 'Standard_F16s_v2'
+$VMSize = 'Standard_F8s_v2'
 $ProtoVMName = 'PROTOTYPE'
 $LiveVMPrefix = 'BUILD'
 $WindowsServerSku = '2019-Datacenter'
